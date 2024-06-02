@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="/Registration_form/css/registration.css">
+    <link rel="stylesheet" href="/Task3 Registration form/img/favicons/logo.ico">
+    <style>
+        label {
+            float: right;
+        }
+    </style>
+</head>
+
+<body>
+    <form>
+        <div id="container">
+            <h2>Registration Form</h2>
+
+            <div class="input">
+                <label for="first">First Name</label><br>
+                <input type="text" id="first" placeholder="enter your first name">
+            </div>
+            <div class="input">
+                <label for="last">Last Name</label><br>
+                <input type="text" id="last" placeholder="enter your last name">
+            </div>
+            <div class="input">
+                <label for="mobile">Mobile No</label><br>
+                <input type="number" id="mobile" placeholder="enter your mobile no">
+            </div>
+            <div class="input">
+                <label for="last">Email</label><br>
+                <input type="email" id="email" placeholder="enter your email">
+            </div>
+            <div class="input">
+                <label for="radio">Gender</label><br>
+                <label for="male">Male</label>
+                <input type="radio" id="male" name="gender">
+
+                <label for="female">Female</label>
+                <input type="radio" id="female" name="gender">
+
+                <label for="other">Others</label>
+                <input type="radio" id="other" name="gender">
+            </div>
+
+            <div class="input">
+                <label for="dob">Date Of Birth</label><br>
+                <input type="date" id="dob" placeholder="enter your date of birth">
+            </div>
+
+
+
+            <div class="input">
+                <label for="file">Share Your Resume</label><br>
+                <input type="file" required>
+            </div>
+
+            <div class="input">
+                <label for="password">Password</label><br>
+                <input type="password" id="password" required placeholder="enter your password">
+            </div>
+
+            <div class="input">
+                <label for="img">Share your Photo </label><br>
+                <input type="file" id="img" required>
+            </div>
+
+            <div class="input">
+                <label for="url">Clg </label><br>
+                <a href="https://www.vit.edu/"> <input type="url" id="url" required></a>
+            </div>
+
+            <div class="input">
+                <label for="address">Address</label><br>
+                <input type="address" id="address" required placeholder="enter your address">
+            </div>
+
+            <div class="input">
+                <label for="Languages"> Languages Known</label><br>
+
+                <label for="html">HTML</label><br>
+                <input type="checkbox" id="html" name="HTML">
+
+                <label for="css">CSS</label><br>
+                <input type="checkbox" id="css" name="CSS">
+
+                <label for="c">C</label><br>
+                <input type="checkbox" id="c" name="C">
+
+                <label for="c++">C++</label><br>
+                <input type="checkbox" id="c++" name="C++">
+            </div>
+
+
+            <div class="input">
+
+                <input type="submit" id="submit" required><br>
+                <input type="reset" id="reset" required><br>
+            </div>
+
+
+        </div>
+    </form>
+</body>
+
+</html>

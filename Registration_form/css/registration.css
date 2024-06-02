@@ -1,0 +1,47 @@
+body {
+    background-image: -webkit-linear-gradient(blue, purple);
+    margin: 0;
+    padding-top: 50px;
+    padding-left: 300px;
+    text-align: center;
+}
+
+h2 {
+    color: #9266f7;
+    font-size: 0px;
+    font-style: italic;
+}
+
+#container {
+    border: 5px solid #b0a2e9;
+    height: 2000px;
+    width: 50%;
+    background-color: #fcf9f9;
+    padding: 60px;
+}
+
+input[type=text],
+[type=number],
+[type=email] {
+    padding: 10px;
+    border: 5px solid rgb(181, 181, 250);
+    border-radius: 10px;
+    color: #b0a2e9;
+}
+
+.input {
+    padding: 50px;
+    font-size: 30px;
+    color: #9266f7;
+    display: inline-block;
+    border: none;
+}
+
+input[type=datetime-local],
+[type=file],
+[type=date] {
+    padding: 10px;
+    border: 5px solid rgb(181, 181, 250);
+    border-radius: 10px;
+    color: #b0a2e9;
+}
